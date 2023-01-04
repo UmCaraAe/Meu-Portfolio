@@ -1,0 +1,155 @@
+#habilidades{
+    display: flex;
+    background-color: #514869;
+    border-bottom: solid 10px #000;
+    height: 600px;
+}
+
+h2{
+    padding: 15px;
+}
+
+.habilidades-pd{
+    padding-top: 26px;
+}
+
+.habilidades-pd h2 {
+    text-align: center;
+    padding-bottom: 70px;
+    justify-content: space-between;
+}
+
+.des-hab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 50px;
+    padding-bottom: 70px;
+}
+
+.conteiner-hab{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 50%;
+}
+
+.skill-box {
+    height: 106px;
+    width: 106px;
+    background-color: #3b3154;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+}
+
+.skill-box:hover {
+    background-color: #3b3154;
+    transform: scale(1.05);
+}
+
+.skill-box .icones-habilidades {
+    transition: ease-in-out 0.3s;
+}
+
+.skill-box:hover .icones-habilidades {
+    opacity: 0;
+}
+
+.conteiner-descricao{
+    color: #adadad;
+    font-family: 'Quando', serif;
+    font-size: 20px;
+    max-width: 40%;
+    background-color: #3b3154;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+@media (max-width:1200px) {
+
+    .conteiner-descricao {
+        height: 215px;
+    }
+
+    #habilidades {
+        display: flex;
+        justify-content: center;
+        height: 827px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .des-hab {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        gap:50px;
+        padding-bottom: 70px;
+        align-items: center;
+    }
+
+    .des-hab p {
+        text-align: center;
+    }
+
+}
+@media (max-width:950px) {
+    .conteiner-hab {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 300px;
+    }
+
+    .conteiner-descricao {
+        max-width: 327px;
+    }
+
+}
+
+.skill1{
+    background-image: url(../img/html.svg);
+}
+
+.skill2{
+    background-image: url(../img/css.svg);
+}
+
+.skill3{
+    background-image: url(../img/js.svg);
+}
+
+.skill4{
+    background-image: url(../img/python.svg);
+}
+
+.skill5{
+    background-image: url(../img/sql.svg);
+}
+
+.skill6{
+    background-image: url(../img/nodejs.svg);
+}
+
+.skill7{
+    background-image: url(../img/react.svg);
+}
+
+.skill8{
+    background-image: url(../img/php.svg);
+}
+
+.icones-habilidades{
+    width: 66px;
+}

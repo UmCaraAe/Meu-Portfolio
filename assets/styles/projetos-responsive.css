@@ -1,0 +1,25 @@
+@media (max-width:1200px) {
+    #projetos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .projetos{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+  
+   .nav-tabs{
+    gap: 10px;
+    display: flex;
+   }
+
+   .tab-content .tab-pane p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    white-space: normal;
+   }
+
+}

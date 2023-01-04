@@ -1,0 +1,179 @@
+#informações{
+    display: flex;
+    background-color: #201b2c;
+    border-bottom: solid 10px #000;
+    height: 121vh;
+}
+
+h2{
+    padding: 15px;
+}
+
+.des-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes-esquerda{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    max-width: 100%;
+}
+
+.info{
+    color: #adadad;
+    margin-top: 10px;
+}
+
+.info-1{
+    color: #00ff88;
+    text-decoration: underline;
+}
+/*Caixa da informação de Inglês*/
+.ingles{
+    background-color: #3b3154;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    height: 220px;
+}
+
+.formacao{
+    background-color: #3b3154;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    height: 220px; 
+}
+
+.forma{
+    color: #adadad;
+    font-size: px;
+}
+
+.informacoes-direita{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 37px;
+    max-width: 100%;
+}
+
+.info-2{
+    color: #00ff88;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.info-3{
+    color: #45896a;
+}
+
+.experiencia{
+    background-color: #3b3154;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+.info-gente{
+    color: #adadad;
+    font-size: 12px;
+    margin-left: 10px;
+    list-style: circle;
+}
+
+.info-financeiro{
+    color: #adadad;
+    font-size: 12px;
+    margin-left: 10px;
+    list-style: circle;
+    margin-bottom: 15px;
+}
+
+.gente{
+    display: flex;
+    flex-direction: column;
+}
+
+.financeiro{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:1200px) {
+
+    .conteiner-descricao {
+        height: 260px;
+    }
+
+    #informações {
+        display: flex;
+        justify-content: center;
+        height: 1249px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .des-info {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        gap:50px;
+        padding-bottom: 9px;
+        align-items: center;
+    }
+
+    .informacoes-esquerda{
+        gap: 10px;
+    }
+
+    .ingles{
+        height: 260;
+        width: 90%;
+    }
+
+    .formacao{
+        width: 90%;
+    }
+
+    .experiencia{
+        width: 90%;
+        margin: auto;
+    }
+
+}
+@media (max-width:950px) {
+    .conteiner-hab2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 300px;
+    }
+
+    .conteiner-descricao {
+        max-width: 300px;
+    }
+
+}
+

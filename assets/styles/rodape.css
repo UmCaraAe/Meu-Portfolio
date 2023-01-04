@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+.footer{
+    width: 100%;
+    background-color: #3e2c52;
+}
+
+.footer-conteiner{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contatos{
+    font-family: 'Quando', serif;
+    color: #adadad;
+    font-size: 12px;
+    padding: 10px 0 ;
+    display:flex;
+    flex-direction: column;
+}
+
+.links3{
+    width: 30px;
+    
+}
+
+h3{
+    margin: 0 auto;
+    color: #00ff8052;
+}
+
+.copy{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.ct{
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+
+.icons{
+    display: flex;
+    gap: 25px;
+}
+
+.what-mail{
+    display: flex;
+    flex-direction: column;
+}
+
+.icons8{
+    color: #00ff88;
+    font-size: 10px;
+}
+
+@media (max-width:1200px){
+    .contatos{
+        text-align: center;
+        width: 65%;
+    }
+
+    .footer-conteiner{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+}
+
+.links1::before{
+    background: url(../img/);
+}
+
+.links1, .links2{
+    border: solid 1px #00ff88;
+    border-radius: 100px;
+    height: 52px;
+    width: 52px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.7s;
+    display: flex;
+    align-items: center;
+}
+
+
+.icons>.links2:hover{
+    transform: rotate(-360deg);
+    border: solid 1px #000;
+}
+
+.links1:hover{
+    transform: rotate(-360deg);
+    border: solid 1px rgb(58, 125, 193);
+}
+
+.links1{
+    background-image: url(../img/icons8-linkedin-circundado\ \(4\).svg);
+}
+
+.links2{
+    background-image: url(../img/github.svg);
+}
+
+.transparente{
+    transition: ease-in-out 0.3s;
+}
+
+.transparente:hover{
+    opacity: 0;
+}
+
+.whatsapp{
+    display: none;
+}
+
+.sites{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}

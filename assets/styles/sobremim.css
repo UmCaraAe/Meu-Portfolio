@@ -1,0 +1,77 @@
+#sobre-mim{
+    width: 100%;
+    background-color: #514869;
+    border-bottom: solid 10px #000;
+}
+
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sobre-mim p {
+    text-indent: 30px;
+    font-size: 25px;
+    max-width: 609.25px;
+    color: #adadad;
+}
+
+.ajustador-2{
+    padding: 144px 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 67px;
+    max-width: 1064px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 45px;
+    color: #00ff88;
+    text-transform: uppercase;
+}
+
+.texto{
+    color: #00ff88;
+    font-family: 'Quando', serif;
+    font-size: 20px;
+    max-width: 1020px;
+    justify-content: space-between
+}
+
+
+@media (max-width:1200px) {
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+    .sobre-mim p {
+        text-indent: 0;
+    }
+}
+
+@media(max-width:950px){
+
+    .ajustador-2 {
+        max-width: 350px;
+        padding: 70px 30px;
+    }
+
+    .eu {
+        margin-right: 0;
+    }
+
+}
+

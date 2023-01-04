@@ -1,0 +1,372 @@
+/*MENU*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quando', serif;
+    scroll-behavior: smooth;
+}
+
+a:hover{
+    color: #00ff8052;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.close-menu{
+    display: none;
+}
+
+.barra{
+    width: 100%;
+    background-color: #201b2c;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.452);
+}
+
+.centralizador{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.barra-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.links{
+    color: #00ff88;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: #2f2841;
+    font-size: 15.2061px;
+    transition: ease-in-out 0.3s;
+}
+/*FINAL MENU*/
+/*INICIO*/
+#inicio{
+    background: #201b2c;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 10px #000;
+}
+
+.ajuste{
+    width: 100%;
+}
+
+.ajustador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.apresentacao{
+    max-width: 700px;
+    color: #adadad;
+}
+
+.descricao{
+    font-size: 25px;
+    grid-area: descricao;
+    margin-bottom: 10px;
+}
+
+.nome{
+    font-size: 50px;
+    color: #adadad;
+}
+
+.in-hub{
+    display: flex;
+}
+
+.linkedin{
+    letter-spacing: 3px;
+    font-weight: 800;
+    width: 150px;
+    height: 50px;
+    background-color: #00ff88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.linkedin a{
+    width: 100%;
+    padding: 25px 0;
+}
+
+.github{
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin-left: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: #00ff88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.github a{
+    width: 100%;
+    padding: 25px 0;
+}
+
+.link{
+    font-size: 15px;
+    width: 50%;
+    text-align: center;
+    padding: 12px 0;
+    transition: ease-in-out 0.3s;
+}
+
+.link:hover{
+    letter-spacing: 5px;
+    color: rgb(4, 4, 4);
+}
+
+.foto{
+    width: 250px;
+    justify-content: center;
+    grid-area: foto;
+    border-radius: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.eu{
+    width: 323px;
+    height: 468px;
+    position: relative;
+    cursor: pointer;
+    transition: ease 1s;
+}
+
+.close{
+    display: none;
+}
+
+.eu{
+    position: relative;
+}
+
+@media (max-width: 1200px) {
+    #inicio{
+        background: #2f2841;
+        height: auto;
+    }
+}
+
+@media (max-width:1200px) {
+    
+    #inicio{
+        background: #201b2c;
+        height: auto;
+    }
+
+    .ajustador {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .foto {
+        padding: 100px 0;
+    }
+
+    .apresentacao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .linkedin {
+        width: 110px;
+        margin-top: 15px;
+    }
+
+    .github{
+        width: 110px;
+        margin-top: 15px;
+    }
+
+    .esquerda {
+        margin-left: 15px;
+    }
+
+    .direita {
+        margin-right: 15px;
+    }
+
+}
+
+@media (max-width:950px) {
+    .foto{
+        padding: 25px 0;
+    }
+
+    .altura-ajuste{
+        display: flex;
+        justify-content: center;
+    }
+    .organizador {
+        max-width: 350px;
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-areas:  
+        "foto"
+        "descricao";
+        line-height: 35px;
+    }
+
+    #inicio {
+        display: flex;
+        justify-content: center;
+    }
+
+    .foto{
+        display: flex;
+        justify-content: center;
+    }
+
+    .descricao {
+        font-size: 20px;
+    }
+
+    .nome {
+        font-size: 30px;
+    }
+
+    .esquerda, .direita {
+        margin: 0;
+    }
+
+    .logo {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .barra{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-centro{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .centralizador{
+        margin: 0;
+    }
+    .barra-conteiner {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .barra-conteiner .logo{
+        width: 100%
+    }
+
+    .direita ul {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .direita ul a {
+        font-size: 35px;
+    }
+
+    .barra {
+        display: block;
+        position: fixed;
+        top: -100vh;
+        transition: ease 0.3s;
+    }
+    
+    .close-menu-label::after {
+        content:'≡';
+        position: fixed;
+        z-index: 2;
+        top: 2rem;
+        right: 2rem;
+        background: #2f2841;
+        color: #00ff88;
+        font-size: 3rem;
+        line-height:3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .close-menu:checked~.barra {
+        top: 0;
+    }
+
+    .close-menu:checked~.close-menu-label::after {
+        display: block;
+        content: '✕';
+    }
+
+    .barra .barra-conteiner ul li a{
+        font-size: 25px;
+    }
+
+    .barra {
+        background: rgba(0, 0, 0, 0.527);
+    }
+
+}

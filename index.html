@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/informacoes.css">
+    <link rel="stylesheet" href="assets/styles/rodape.css">
+    <link rel="stylesheet" href="assets/styles/menu.css">
+    <link rel="stylesheet" href="assets/styles/habilidades.css">
+    <link rel="stylesheet" href="assets/styles/projetos.css">
+    <link rel="stylesheet" href="assets/styles/sobremim.css">
+    <link rel="stylesheet" href="assets/styles/projetos-responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>Meu Portifolio</title>
+</head>
+<body>
+    <!--MENU-->
+    <div>
+        <input id="close-menu"
+         class="close-menu" 
+         aria-label="close-menu" 
+         role="button" 
+         type="checkbox"/>
+            <label class="close-menu-label"
+             for="close-menu"
+             title="close menu"></label>
+        <div class="barra">
+            <div class="menu-centro">
+                <div class="barra-conteiner centralizador">
+                    <div class="logo esquerda">
+                      <a href="index.html"><img src="assets/img/icons8-programação-100.png" alt="logo"></a>  
+                    </div>
+                    <nav class="direita">
+                        <ul onclick="getElementById('close').checked=false;">
+                            <li>
+                                <a class="links" href="#inicio">Início</a>
+                            </li>
+                            <li>
+                                <a class="links" href="#sobre-mim" onclick="escrever()">Sobre Mim</a>
+                            </li>
+                            <li>
+                                <a class="links" href="#projetos">Projetos</a>
+                            </li>
+                            <li>
+                                <a class="links" href="#habilidades">Habilidades</a>
+                            </li>
+                            <li>
+                                <a class="links" href="#informações">Informações</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Inicio-->
+    <section id="inicio">
+        <div class="ajuste">
+            <div class="inicio centralizador">
+                <div class="ajustador organizador">
+                    <div class="apresentacao">
+                        <p class="descricao">Olá, meu nome é <br>
+                        <span style="display: inline;" class="nome">&Eopf;&ropf;&iopf;&copf;&kopf; &dopf;&eopf; &Oopf;&lopf;&iopf;&vopf;&eopf;&iopf;&ropf;&aopf; &rarr;</span> <br>Futuro Desenvolvedor Front-end.</p>
+                        <div class="in-hub">
+                            <div class="linkedin">
+                                <a href="https://linkedin.com/in/erick-oliveira-897917219" target="_blank" class="link">Linkedin</a>
+                            </div>
+                            <div class="github">
+                                <a href="https://github.com/UmCaraAe/Meu-Portifolio.git" target="_blank" class="link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="foto">
+                        <img class="eu" src="assets/img/eu.png" alt="Imagem"/> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Inicio-Fim-->
+    <!--Sobre Mim-->
+    <section id="sobre-mim">
+        <div class="centralizador">
+            <div class="ajustador-2">
+                <div class="sobre-mim">
+                    <h2>Sobre Mim</h2><br>
+                    <p class="texto">Meu nome é Erick Justino de Oliveira, tenho 18 anos, estou no 3° Périodo no Curso de Sistemas de Informação. Gosto de tecnologia e mais especificamente programação, tendo meu primeiro contato com essa área em curso de Robótica que participei com 14 anos.
+                    </p>
+                    <p class="texto">
+                        Já tenho um bom conhecimento em certas linguagens como JavaScript e Python, e busco evoluir mais ainda estudando alguns FrameWorks de JavaScript, para enfim me tornar um Desenvolvedor Front-End.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Sobre Mim-Fim-->
+    <!--Projetos-->
+    <section id="projetos">
+        <div class="centralizador projetos">
+            <h2 class="project">Projetos</h2>
+            <div id="pro" class="projetos">
+                <div>
+                    <div>
+                        <ul class="nav-tabs js-nav-tabs">
+                        <li><a href="" class="active">01</a></li>
+                        <li><a href="">02</a></li>
+                        <li><a href="">03</a></li>
+                        <li><a href="">04</a></li>
+                        <li><a href="">05</a></li>
+                        <li><a href="">06</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card tab-content">
+                    <div class="tab-pane js-tab-pane active">
+                      <h2>Jogo de Advinhação</h2>
+                      <p>
+                        Primeiro projeto que desenvolvi durante um curso do Gustavo Guanabara.
+                      </p>
+                      <p>
+                        É um jogo de advinhação de um número de 1 à 100 que avisa quando está perto ou longe de acertar este número.
+                      </p>
+                      <img src="assets/img/img-pro-1(3).png"/>
+                      <a
+                        href="file:///C:/Users/Erick/Desktop/Meu%20Portifolio/assets/projetos/jogo/jogo.html"
+                        class="btn-principal"
+                        target="_blank"
+                        >Ver Projeto</a>
+                    </div>
+                    <div class="tab-pane js-tab-pane">
+                      <h2>Extraindo Texto</h2>
+                      <p>
+                        Este projeto foi desenvolvido por uma necessidade no meu antigo emprego, para auxiliar e facilitar o acesso aos números do código de barras dos boletos.
+                      </p>
+                      <p>
+                        Utilizando a API Tesseract.js permite ler, extrair e mostrar o texto de uma imagem.
+                      </p>
+                      <img src="assets/img/img-pro-2(3).png" alt="Extraindo Texto" />
+                      <a
+                        href="https://github.com/UmCaraAe/Extraindo-texto-de-imagens"
+                        class="btn-principal"
+                        target="_blank"
+                        >Ver Projeto</a
+                      >
+                    </div>
+                    <div class="tab-pane js-tab-pane">
+                      <h2>Player de Música</h2>
+                      <p>
+                        Desafio era criar um Player de música em Python utilizando TKinter
+                      </p>
+                      <p>
+                        Este player de música é completo, consegue adicionar e remover músicas, avançar e voltar, além de outras funções de um player de música padrão.
+                      </p>
+                      <img src="assets/img/img-pro-3(3).png" alt="Player de Música" />
+                      <a
+                        href="https://github.com/UmCaraAe/Player-de-M-sica"
+                        target="_blank"
+                        class="btn-principal"
+                        >Ver Projeto</a>
+                    </div>
+                    <div class="tab-pane js-tab-pane">
+                      <h2>Sistema de Login</h2>
+                      <p>
+                        Densevolvimento do Layout Bikcrafter da plataforma de ensino
+                        origamid.
+                      </p>
+                      <p>
+                        A ideia principal é desenvolver o projeto com base no
+                        protótipo do figma usando Design UI.
+                      </p>
+                      <img src="assets/img/img-pro-login.png" alt="Sistema de Login" />
+                      <a
+                        href="https://github.com/UmCaraAe/Sistema-de-Login"
+                        class="btn-principal"
+                        target="_blank"
+                        >Ver Projeto</a>
+                    </div>
+                    <div class="tab-pane js-tab-pane">
+                      <h2>Calculadora</h2>
+                      <p>
+                        Densevolvimento do Layout Le Scone da plataforma de ensino
+                        origamid.
+                      </p>
+                      <p>
+                        A ideia principal é desenvolver o projeto com base no
+                        protótipo do figma usando html, css e sistemas.
+                      </p>
+                      <img src="assets/img/img-pro-4(2).png" alt="Calculadora" />
+                      <a
+                        href="https://github.com/UmCaraAe/Calculadora"
+                        class="btn-principal"
+                        target="_blank"
+                        >Ver Projeto</a
+                      >
+                    </div>
+                    <div class="tab-pane js-tab-pane">
+                        <h2>Projeto</h2>
+                        <p>
+                          EM BREVE
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>            
+    </section>
+    <!--Projetos-Fim-->
+    <!--Habilidades-->
+    <section id="habilidades">
+        <div class="centralizador">
+            <div class="habilidades-pd">
+                <h2 class="tit-hab">Habilidades</h2>
+                <div class="des-hab"><!--Descrição das habilidades-->
+                    <div class="conteiner-hab"><!--Container das habilidades-->
+                        <div class="skill-box skill1 html-skill" >
+                            <img class="icones-habilidades" src="assets/img/html-trans (2).png" alt="HTML">
+                        </div>
+                        <div class="skill-box skill2 css-skill">
+                            <img class="icones-habilidades" src="assets/img/css-trans.png" alt="CSS">
+                        </div>
+                        <div class="skill-box skill3 js-skill">
+                            <img class="icones-habilidades" src="assets/img/javascript.svg" alt="JavaScript">
+                        </div>
+                        <div class="skill-box skill4 python-skill">
+                            <img class="icones-habilidades" src="assets/img/python-trans.png" alt="Python">
+                        </div>
+                        <div class="skill-box skill5 sql-skill" >
+                            <img class="icones-habilidades" src="assets/img/sql-trans.png" alt="MySql">
+                        </div>
+                        <div class="skill-box skill8 php-skill" >
+                            <img class="icones-habilidades" src="assets/img/php-trans.png" alt="PHP">
+                        </div>
+                    </div>
+                    <div class="conteiner-descricao">
+                        <p class="texto-descricao">Clique em alguma habilidade para ler a descrição</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Habilidades-Fim-->
+    <!-- Informções inicio -->
+    <section id="informações">
+        <div class="centralizador">
+            <div class="habilidades-pd">
+                <h2 class="tit-info">Informações</h2>
+                <div class="des-info">
+                    <div class="informacoes-esquerda">
+                        <div class="ingles">
+                          <h3 class="info-1">Inglês</h3>
+                            <p class="info">Consigo ler, escrever e entender o idioma em nível intermediário, porém ainda tenho uma certa dificuldade em pronunciar as palavras de forma correta.</p>
+                        </div>
+                        <div class="formacao">
+                            <h3 class="info-1">Formação</h3>
+                            <p class="forma">Ensino Superior na Universidade Estácio de Sá</p>
+                            <p class="forma">Graduação em Sistemas de Informação</p>
+                            <p class="forma">Inicio em 03/2022</p>
+                            <p class="forma">Previsão de formatura em 06/2026</p>
+                        </div>
+                    </div>
+                    <div class="informacoes-direita">
+                        <div class="experiencia">
+                            <h3 class="info-2">Experiência Profissional</h3>
+                            <p class="info">Tive a experiência como Jovem Aprendiz na empresa Maqnelson Agrícola durante 1 ano e 4 meses.</p>
+                            <h4 class="info-3">Gente e Gestão</h4>
+                            <ul class="gente">
+                                <li class="info-gente">Era encarregado de atividades de rotina na área de Gente e Gestão</li>
+                                <li class="info-gente">Envio e recebimento de malotes</li> 
+                                <li class="info-gente">Solicitação de compras para área</li>
+                                <li class="info-gente">Duração de 8 meses na área</li>
+                            </ul>
+                            <h4 class="info-3">Setor Financeiro</h4>
+                            <ul class="financeiro">
+                                <li class="info-financeiro">Auxilio nas atividades de rotina do setor</li>
+                                <li class="info-financeiro">Contas a pagar</li>
+                                <li class="info-financeiro">Controle de boletos lançados no sistema(Desenvolvi um controle destes boletos no Excel para auxiliar no controle de boletos lançados e não lançados.)</li>
+                                <li class="info-financeiro">Duração de 8 meses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Aprendendo FIM -->
+    <!--Rodapé-->
+    <footer class="footer">
+        <div class="footer-conteiner centralizador">
+            <div class="contatos">
+                <p>
+                    Gostou? Deseja fazer uma proposta ou me mandar um feedback? 
+                </p>
+                <p>
+                    Entre em contato via WhatsApp: (34) 9 9768-8490
+                </p>
+                <p>Email: erickjustino13@gmail.com</p>
+                <div class="sites">
+                    Icones:  <a class="icons8" target="_blank" href="https://icons8.com">icons.8.com</a>
+                </div>
+            </div>
+            <div class="icons">
+                <div class="links links1">
+                    <a href="https://linkedin.com/in/erick-oliveira-897917219" target="_blank"><img class="transparente" src="assets/img/linkedin-trans.png" alt="Linkedin"></a>
+                </div>
+                <div class="links links2">
+                    <a href="https://github.com/UmCaraAe/Meu-Portifolio.git" target="_blank"><img class="transparente" src="assets/img/github-trans.svg" alt="GitHub"></a>
+                </div>
+            </div>
+        </div>
+        <span class="copy">&copy; Erick Justino de Oliveira, 2022.</span>
+    </footer>
+    <script src="assets/scripts/habilidades.js"></script>
+    <script src="assets/scripts/projetos.js"></script>
+</body>
+</html>
