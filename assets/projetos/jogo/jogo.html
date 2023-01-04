@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Adivinhando o Número</title>
+  </head>
+  <body>
+    <h1>Adivinhando o Número</h1>
+
+    <p><b>Nós selecionamos um número aleatório de 1 à 100. Veja se você consegue advinha-lo em 10 rodadas ou menos. Nós diremos se você conseguiu, se está perto ou longe.</b></p>
+
+    <div class="form">
+      <label for="guessField">Digite um número: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Adivinhar" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+    <small class="copy">&copy; Erick Justino de Oliveira, 2022.</small>
+    <link href="jogo.css" rel="stylesheet">
+    <script src="jogo.js"></script>
+  </body>
+</html>
