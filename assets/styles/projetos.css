@@ -109,3 +109,6 @@ img {
 
 /*Responsive*/
 
+.tab-pane js-tab-pane active>a:hover{
+    color: #2c2f2e;
+}
