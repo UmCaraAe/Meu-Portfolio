@@ -109,6 +109,6 @@ img {
 
 /*Responsive*/
 
-.tab-pane js-tab-pane active>a:hover{
-    color: #2c2f2e;
+#pro > div.card.tab-content > div.tab-pane.js-tab-pane.active > a:hover{
+  color: #2c2f2e;
 }
