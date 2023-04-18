@@ -4,7 +4,7 @@ const cssSkill = document.querySelector('.css-skill')
 const jsSkill = document.querySelector('.js-skill')
 const pySkill = document.querySelector('.python-skill')
 const sqlSkill = document.querySelector('.sql-skill')
-const phpSkill = document.querySelector('.php-skill')
+const reactSkill = document.querySelector('.react-skill')
     //Alterando texto
     htmlSkill.addEventListener('click', function(evento){
         evento.preventDefault()
@@ -45,9 +45,9 @@ const phpSkill = document.querySelector('.php-skill')
         texto.innerHTML = ' Clique em alguma habilidade para ler a descrição.'
     })
 
-    phpSkill.addEventListener('click', function(evento){
-        texto.innerHTML = 'O PHP é uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML.'
+    reactSkill.addEventListener('click', function(evento){
+        texto.innerHTML = 'React é um framework JavaScript criado pelo Facebook que é usado para criar interfaces de usuário (UI) em aplicativos web.'
     })
-    phpSkill.addEventListener('mouseout', function(){
+    reactSkill.addEventListener('mouseout', function(){
         texto.innerHTML = ' Clique em alguma habilidade para ler a descrição.'
     })
